@@ -7,6 +7,7 @@
             "description": "Using compilers: C = /usr/bin/gcc-12",
             "binaryDir": "${sourceDir}/out/build/${presetName}",
             "cacheVariables": {
+                "CMAKE_TOOLCHAIN_FILE": "/home/qiuyilin/vcpkg/scripts/buildsystems/vcpkg.cmake",
                 "CMAKE_C_COMPILER": "/usr/bin/gcc-12",
                 "CMAKE_BUILD_TYPE":"Debug",
                 "BUILD_EXAMPLES":"ON"
